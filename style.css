@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    margin: 0px;
+}
+.nav{
+    background-color: #0a1525;
+    display: flex;
+    justify-content: space-between;
+}
+.imgnav{
+    height: 45px;
+    margin: 20px;
+}
+.fa{
+    color: white;
+    margin: 30px;
+}
+
+.navabout{
+    color: white;
+}
+@media screen and (max-width:768px){
+  .navabout{
+  display: none;
+  }
+}
+@media screen and (min-width:768px){
+  .navabout{
+  display: flex;
+  
+  }
+  .a1{
+      font-size: 15px;
+      margin: 20px;
+  }
+}
+.h1{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.nava{
+    display: flex;
+}
+
+.card2{
+   
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   padding: 20px;
+}
+.h2{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Bree Serif";
+}
+.p2{
+    color: grey;
+    font-size: 20px;
+    font-family: "Bree Serif";
+}
+.button1{
+    color: #ffffff;
+    background-color: #FF7A2E;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 6px;
+     font-family: "Bree Serif";
+}
+
+.card3{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.h3{
+    color: #0A1525;
+}
+.p3{
+    color: #1E293B;
+    font-size: 20px;
+}
+.h4{
+    color: #0A1525;
+    margin-left:  40px;
+}
+.p4{
+    color: #dfe3eb;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.img2{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    border-radius: 20px;
+}
+@media screen and (min-width:768px){
+.card4{
+    display: flex;
+}
+}
+
+.card5{
+    text-align: center;
+    background-color: #dfe3eb;
+    margin: 0px;
+    height: 140px;
+}
+.name{
+    text-align: start;
+    font-size: 25px;
+    color: #1E293B;
+  
+}
+.span{
+    color: red;
+}
+.namebox{
+    height: 30px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 6px;
+}
+@media screen and (min-width:768px){
+.cardx{
+    display: flex;
+    justify-content: space-between;
+    padding:  50px;
+}
+}
+.card6{
+    background-color: #dfe3eb ;
+    height: 250px;
+}
+.msgbox{
+    height: 190px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.card7{
+    display: flex;
+}
+.button7{
+    color: #ffffff;
+    background-color: #FF7A2E;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 20px;
+    width: 100%;
+     font-family: "Bree Serif";
+}
+.footer{
+    background-color: #0A1525;
+      color: #dfe3eb;
+}
+.imgf{
+    height: 80px;
+    margin: 40px;
+}
+.pf{
+    color: #dfe3eb;
+       margin-left: 40px;
+}
+.ic{
+    margin: 40px;
+}
+.y{
+    margin: 40px;
+}
+
+@media screen and (min-width:768px){
+.fsub{
+    display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+    padding:  50px;
+}
+}
+.last{
+    background-color: #0A1525;
+    color: #dfe3eb;
+    margin: 0px;
+    padding: 20px;
+}
